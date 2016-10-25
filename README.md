@@ -25,22 +25,22 @@ Data dictionary
 | Field              | Type         | Key     | Description | Notes |
 |--------------------|--------------|---------|-------------|-------|
 | SYSTEMSTUDENTID       | Varchar(100) | Primary Key |             |       |
-| SPED_NEXTANNUALIEP         | Varchar(100) |  |This is the IEP End Date field in the SLED report, which is 364 days after the IEP beginning date. Should be the same as the "IEP End" column in SEDS - reflects when it's due in SEDS             |       |
+| SPED_NEXTANNUALIEP         | Varchar(100) |  |This is the IEP End Date field in the SLED report, which is 364 days after the IEP beginning date. Should be the same as the "IEP End" column in SEDS - reflects when it's due in SEDS             |Next Annual IEP in PowerSchool       |
 | SPED_PROJELIG            | Varchar(100) |  |             |       |
-| SPED_TOTALHOURS          | Real |  |Represents ALL SPED hours (instruction support in Gen Ed and SPED settings, related services, and dedicated aide hours)             |       |
-| SPED_FUNDING           | Varchar(100) |  |             |       |
-| SPED_SPEDHOURS  | Real |  | Represents total SPED hours outside of Gen Ed setting (instructional support in SPED settings (pullout), related services)            |       |
-| SPED_GENEDHOURS          | Real     |  |Represents total SPED hours inside of Gen Ed setting (instructional support in Gen Ed settings (push-in), related services)             |       |
-| SPED_PERCENTOUTGENED            | Real |  |             |Total/32.5       |
-| SPED_LRETIER | Varchar(100) |  |Tier A (80+% Gen Ed), Tier B (40-79% Gen Ed), Tier C (0-39% Gen Ed)               |Total/32.5     |
-| SPED_SpInstSpEd    | Varchar(100) |  |Represents instructional support hours in SPED settings (not including related services)              |Kept in hours/week format       |
-| SPED_SpInstGenEd               | Varchar(100)        |  |Represents instructional support hours in Gen Ed settings (not including related services)              |Kept in hours/week format       |
-| SPED_DedicatedAideHrs          | Varchar(100) |  |             |       |
-| SPED_Related_Behavior      | Varchar(100) |  |             |Keep in min/month format       |
-| SPED_Related_Speech        | Varchar(100) |  |             |Keep in min/month format       |
-| SPED_Related_OT          | Varchar(100) |  |             |Keep in min/month format       |
-| SPED_Related_PT      | Varchar(100) |  |             |Keep in min/month format       |
-| SPED_Related_Audiology        | Varchar(100) |  |             |Keep in min/month format       |
+| SPED_TOTALHOURS          | Real |  |Represents ALL SPED hours (instruction support in Gen Ed and SPED settings, related services, and dedicated aide hours)             |Total Hours in PowerSchool       |
+| SPED_FUNDING           | Varchar(100) |  |             |SPED Funding Level in PowerSchool       |
+| SPED_SPEDHOURS  | Real |  | Represents total SPED hours outside of Gen Ed setting (instructional support in SPED settings (pullout), related services)            |SPED Hours in PowerSchool       |
+| SPED_GENEDHOURS          | Real     |  |Represents total SPED hours inside of Gen Ed setting (instructional support in Gen Ed settings (push-in), related services)             |Gen Ed Hours in PowerSchool       |
+| SPED_PERCENTOUTGENED            | Real |  |             |Total/32.5; Percent Outside Gen Ed Classroom (LRE %) in PowerSchool      |
+| SPED_LRETIER | Varchar(100) |  |Tier A (80+% Gen Ed), Tier B (40-79% Gen Ed), Tier C (0-39% Gen Ed)               |Total/32.5; LRE Tier in PowerSchool    |
+| SPED_SpInstSpEd    | Varchar(100) |  |Represents instructional support hours in SPED settings (not including related services)              |Kept in hours/week format; Hours of Specialized Instruction SpEd in PowerSchool      |
+| SPED_SpInstGenEd               | Varchar(100)        |  |Represents instructional support hours in Gen Ed settings (not including related services)              |Kept in hours/week format; Hours of Specialized Instruction GenEd in PowerSchool       |
+| SPED_DedicatedAideHrs          | Varchar(100) |  |             |Dedicated Aide Hours in PowerSchool       |
+| SPED_Related_Behavior      | Varchar(100) |  |             |Keep in min/month format; Related Services - Behavior (hours) in PowerSchool       |
+| SPED_Related_Speech        | Varchar(100) |  |             |Keep in min/month format; Related Services - Speech (hours) in PowerSchool       |
+| SPED_Related_OT          | Varchar(100) |  |             |Keep in min/month format; Related Services - OT (hours) in PowerSchool      |
+| SPED_Related_PT      | Varchar(100) |  |             |Keep in min/month format; Related Services - PT (hours) in PowerSchool     |
+| SPED_Related_Audiology        | Varchar(100) |  |             |Keep in min/month format; Related Services - Audiology (hours) in PowerSchool     |
 
 # Custom.SPED_Special_Education_Roster
 
