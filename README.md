@@ -41,3 +41,29 @@ Data dictionary
 | SPED_Related_OT          | Varchar(100) | SYSTEMSTUDENTID |             |Keep in min/month format       |
 | SPED_Related_PT      | Varchar(100) | SYSTEMSTUDENTID |             |Keep in min/month format       |
 | SPED_Related_Audiology        | Varchar(100) | SYSTEMSTUDENTID |             |Keep in min/month format       |
+
+# Custom.SPED_Special_Education_Roster
+
+| Field              | Type         | Key     | Description | Notes |
+|--------------------|--------------|---------|-------------|-------|
+| USI      | Varchar(100) | USI |             |       |
+| FirstName         | Varchar(100) | USI |             |       |
+| LastName            | Varchar(100) | USI |             |       |
+| Gender          | Varchar(100) | USI |             |       |
+| DateofBirth           | Date | USI |             |       |
+| LEAname  | Varchar(100) | USI |             |       |
+| LEAType          | Varchar(100)     | USI |             |       |
+| SchoolName            | Varchar(100) | USI |             |       |
+| SchoolType | Varchar(100) | USI |             |       |
+| PrimaryDisability    | Varchar(100) | USI |             |       |
+| IEPBeginDate               | Varchar(100)        | USI |             |       |
+| IEPEndDate          | Varchar(100) | USI |             | 364 days after beginning date       |
+| total_hours_out_of_gen_ed_setting      | Real | USI | Represents total SPED hours out of Gen Ed setting (instructional support in SPED settings (pullout), related services)            |       |
+| total_hours_in_gen_ed_setting        | Real | USI | Represents total SPED hours inside of Gen Ed setting (instructional support in Gen Ed settings (push-in), related services)             |       |
+| dedicated_aide_hours            | Real | USI |             |       |
+| Total_Hours_Per_Week | Real | USI |Represents ALL SPED hours (instruction support in Gen Ed and SPED settings, related services, and dedicated aide hours)             |       |
+| Special_Education_Level    | Varchar(100) | USI |             |       |
+| Environment               | Varchar(2000)       | USI |Measures LRE Tier              |*Is 2000 a typo?     |
+| EligibilityDate          | Varchar(200) | USI |             |       |
+| ProjectedEligibilityDate      | Varchar(200) | USI |             |       |
+| LastUpdated        | Varchar(100) | USI |             |       |
