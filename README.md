@@ -32,7 +32,7 @@ Data dictionary
 | SPED_SPEDHOURS  | Real | SYSTEMSTUDENTID | Represents total SPED hours outside of Gen Ed setting (instructional support in SPED settings (pullout), related services)            |       |
 | SPED_GENEDHOURS          | Real     | SYSTEMSTUDENTID |Represents total SPED hours inside of Gen Ed setting (instructional support in Gen Ed settings (push-in), related services)             |       |
 | SPED_PERCENTOUTGENED            | Real | SYSTEMSTUDENTID |             |Total/32.5       |
-| SPED_LRETIER | Varchar(100) | SYSTEMSTUDENTID |             |Total/32.5; Tier A (80+% Gen Ed), Tier B (40-79% Gen Ed), Tier C (0-39% Gen Ed)       |
+| SPED_LRETIER | Varchar(100) | SYSTEMSTUDENTID |Tier A (80+% Gen Ed), Tier B (40-79% Gen Ed), Tier C (0-39% Gen Ed)               |Total/32.5     |
 | SPED_SpInstSpEd    | Varchar(100) | SYSTEMSTUDENTID |Represents instructional support hours in SPED settings (not including related services)              |Kept in hours/week format       |
 | SPED_SpInstGenEd               | Varchar(100)        | SYSTEMSTUDENTID |Represents instructional support hours in Gen Ed settings (not including related services)              |Kept in hours/week format       |
 | SPED_DedicatedAideHrs          | Varchar(100) | SYSTEMSTUDENTID |             |       |
