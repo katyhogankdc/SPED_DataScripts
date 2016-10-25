@@ -1,7 +1,7 @@
 # SPED_DataScripts
 Data dictionary
 
-Custom.SPED_All_Students_With_Disabilities
+# Custom.SPED_All_Students_With_Disabilities
 
 | Field              | Type         | Key     | Description | Notes |
 |--------------------|--------------|---------|-------------|-------|
