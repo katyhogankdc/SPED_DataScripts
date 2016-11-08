@@ -41,11 +41,11 @@ Data dictionary
 | SPED_Related_OT          | Varchar(100) |  |             |Keep in min/month format; Related Services - OT (hours) in PowerSchool      |
 | SPED_Related_PT      | Varchar(100) |  |             |Keep in min/month format; Related Services - PT (hours) in PowerSchool     |
 | SPED_Related_Audiology        | Varchar(100) |  |             |Keep in min/month format; Related Services - Audiology (hours) in PowerSchool     |
-| SPED_Related_Behavior_OutsideGenEd      | Varchar(100) |  |             |Keep in min/month format; Related Services - Behavior, outside of Gen Ed setting       |
-| SPED_Related_Speech_OutsideGenEd        | Varchar(100) |  |             |Keep in min/month format; Related Services - Speech, outside Gen Ed setting       |
-| SPED_Related_OT_OutsideGenEd          | Varchar(100) |  |             |Keep in min/month format; Related Services - OT, outside Gen Ed setting      |
-| SPED_Related_PT_OutsideGenEd      | Varchar(100) |  |             |Keep in min/month format; Related Services - PT, outside Gen Ed setting     |
-| SPED_Related_Audiology_OutsideGenEd        | Varchar(100) |  |             |Keep in min/month format; Related Services - Audiology, outside Gen Ed setting     |
+| SPED_Related_Behavior_Outside     | Varchar(100) |  |             |Keep in min/month format; Related Services - Behavior, outside of Gen Ed setting       |
+| SPED_Related_Speech_Outside       | Varchar(100) |  |             |Keep in min/month format; Related Services - Speech, outside Gen Ed setting       |
+| SPED_Related_OT_Outside         | Varchar(100) |  |             |Keep in min/month format; Related Services - OT, outside Gen Ed setting      |
+| SPED_Related_PT_Outside     | Varchar(100) |  |             |Keep in min/month format; Related Services - PT, outside Gen Ed setting     |
+| SPED_Related_Audiology_Outside        | Varchar(100) |  |             |Keep in min/month format; Related Services - Audiology, outside Gen Ed setting     |
 | SPED_Related_Behavior_GenEd      | Varchar(100) |  |             |Keep in min/month format; Related Services - Behavior, in Gen Ed setting       |
 | SPED_Related_Speech_GenEd        | Varchar(100) |  |             |Keep in min/month format; Related Services - Speech, in Gen Ed setting       |
 | SPED_Related_OT_GenEd          | Varchar(100) |  |             |Keep in min/month format; Related Services - OT, in Gen Ed setting     |
